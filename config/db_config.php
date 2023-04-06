@@ -1,9 +1,9 @@
 <?php
 
 $dbhost = 'localhost:3306';
-$dbuser = 'naskamp_nick_askamp';
-$dbpass = 'welkom1234!';
-$dbname = 'naskamp_netwerken_toets_2023';
+$dbuser = 'dbuser';
+$dbpass = 'dbpassword';
+$dbname = 'crud_simple';
 
 $conn = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
 if($conn->connect_error)
