@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = 'localhost:3306';
-$dbuser = 'root';
-$dbpass = '';
+$dbuser = 'naskamp_nick_askamp';
+$dbpass = 'welkom1234!';
 $dbname = 'netwerken_toets_2023';
 
 $conn = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
