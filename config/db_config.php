@@ -2,7 +2,7 @@
 
 $dbhost = 'localhost:3306';
 $dbuser = 'dbuser';
-$dbpass = 'dbpassword';
+$dbpass = 'dbpassword1234!';
 $dbname = 'crud_simple';
 
 $conn = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
